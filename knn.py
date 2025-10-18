@@ -90,7 +90,6 @@ def predictLinear(X_train, y_train, X_test, k):
 X_train = [[1,2],[2,3],[3,4],[4,5],[5,6]]
 y_train = [2.1, 2.9, 4.2, 5.0, 6.1]
 
-# New points we want to predict
 X_test = [[1.5,2.5],[3.5,4],[5.0,3.5]]
 
 k = 2
