@@ -97,6 +97,8 @@ k = 2
 predictions = predictLinear(X_train, y_train, X_test, k)
 print("Predictions:", predictions)
 
+#Using the original training data to test the model again
+
 newPredictions = predictLinear(X_train,y_train,X_train,k)
 
 error = meanSquaredError(y_train,newPredictions)
